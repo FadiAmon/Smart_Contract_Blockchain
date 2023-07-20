@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Apartment Operations In Blockchain!</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+<body>
+  <h1 style="font-size: 40px;">Apartment Operations In Blockchain!</h1>
+
+  <form id="uploadForm">
+    <div>
+      <button type="button" id="connectButton" style="font-size: 20px;">Connect to MetaMask</button>
+    </div>
+    <div>
+      <label for="size" style="font-size: 20px;">Size (in meters):</label>
+      <input type="text" id="size" name="size" style="font-size: 20px;">
+    </div>
+
+    <div>
+    <label for="price" style="font-size: 20px;">Price (in dollars):</label>
+    <input type="text" id="price" name="price" style="font-size: 20px;">
+    </div>
+
+    <div>
+    <label for="location" style="font-size: 20px;">Location:</label>
+    <input type="text" id="location" name="location" style="font-size: 20px;">
+  </div>
+
+    <div>
+    <label for="imageHash" style="font-size: 20px;">Image Hash:</label>
+    <input type="text" id="imageHash" name="imageHash" style="font-size: 20px; width: 800px;">
+  </div>
+
+    <div>
+    <button type="button" id="uploadButton" disabled style="font-size: 20px;">Upload Apartment</button>
+    <button type="button" id="deleteButton" disabled style="font-size: 20px;">Delete Apartment</button>
+  </div>
+
+    <div>
+      <label for="Transfer" style="font-size: 20px;">Transfer to:</label>
+      <input type="text" id="Transfer" name="Transfer" style="font-size: 20px; width: 800px;">
+      <button type="button" id="transferButton" disabled style="font-size: 20px;">Transfer Apartment</button>
+      <button type="button" id="transferHistoryButton" disabled style="font-size: 20px;">Check Transfer History</button>
+
+    </div>
+
+    <div>
+      <label for="ApartmentDetails" style="font-size: 20px;">View Apartment Details:</label>
+      <input type="text" id="ApartmentDetails" name="ApartmentDetails" style="font-size: 20px; width: 800px;">
+      <button type="button" id="DetailsButton" disabled style="font-size: 20px;">Submit</button>
+    </div>
+
+  </form>
+</body>
+</html>
