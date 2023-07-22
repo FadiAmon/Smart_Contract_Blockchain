@@ -1,9 +1,7 @@
 # Smart_Contract_Blockchain
 
-This project aims to able users to store sensetive data and information in the blockchain where it has no risk of getting changed or deleted,
-hence there no need for a third party inteference such as governments or lawyers.
 
-I created a simple GUI using flask that ables the users to interacte with the smart contract, so they could upload their apartment, or transfer it.
+The goal of this project is to empower users to securely store sensitive data and information in the blockchain, ensuring it remains immutable and free from third-party interference like governments or lawyers. A user-friendly GUI developed with Flask facilitates easy interaction with the smart contract, enabling users to upload and transfer apartments seamlessly
 
 Full functionality of the smart contract:
 
